@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maddie Snowden | Digital Marketing Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <span class="hero-tag">Digital Marketing Portfolio</span>
+    <h1>Hi, I'm <span>Maddie Snowden</span></h1>
+    <p class="hero-sub">
+      Senior at Miami University — performance marketer, brand strategist, and
+      digital storyteller with hands-on experience across paid media, lifecycle email,
+      and cross-channel campaign execution.
+    </p>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="portfolio.html">Portfolio</a>
+    </div>
+  </header>
+
+  <!-- STAT BAR -->
+  <div class="stat-bar">
+    <div class="stat-item">
+      <span class="stat-num">150+</span>
+      <span class="stat-label">Emails Optimized</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">5K+</span>
+      <span class="stat-label">Mobile Push Users</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">3.87</span>
+      <span class="stat-label">GPA</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">10+</span>
+      <span class="stat-label">Certifications</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">3+</span>
+      <span class="stat-label">Years Experience</span>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="container">
+    <div class="main-content">
+
+      <section>
+
+        <h2>Welcome to My Portfolio</h2>
+
+        <!-- IMAGE + PARAGRAPHS SIDE BY SIDE -->
+        <div class="intro-row">
+
+          <!-- LEFT: TEXT -->
+          <div class="intro-text">
+            <p>
+              I am a <strong>senior at Miami University</strong> pursuing a Bachelor of Arts in
+              Media and Communication with a Minor in Digital Marketing, maintaining a
+              <u>3.87 GPA</u>. My academic foundation spans coursework in User Experience Research,
+              Social Media Marketing, Advertising, Communication Technology, and Media Economics —
+              giving me both the strategic frameworks and the hands-on skills to execute across
+              channels. I approach every project with <em>analytical precision and creative intent</em>,
+              translating research and data into messaging that actually moves people. I hold
+              certifications in Google Ads, Hootsuite, SEO, and ethical research, and I bring
+              technical fluency with tools like Salesforce Marketing Cloud, Adobe Suite, Semrush,
+              Canva, CapCut, and Google Workspace. Whether building a campaign from brief to launch
+              or optimizing an existing funnel, I am committed to delivering work that is
+              <strong>strategic, measurable, and brand-consistent</strong>. I am passionate about
+              the intersection of storytelling and performance. This portfolio is a window into
+              the work that reflects that passion.
+            </p>
+            <p>
+              Outside the classroom, I have gained real-world experience across brand, agency, and
+              startup environments that have sharpened my instincts as a marketer. During my
+              performance marketing internship at <strong>NinjaTrader</strong>, I contributed to the
+              company's first international campaign launch post-acquisition with Kraken, presented
+              customer segmentation strategy directly to the CMO, CEO, and President, and optimized
+              150+ multilingual emails across Salesforce Marketing Cloud. At
+              <strong>Speed Lemon Media</strong>, I created platform-specific content, conducted
+              market research, and supported press and branding efforts for clients. As a
+              <strong>Fresh Prints Campus Manager</strong>, I have built relationships with 50+
+              student organizations and run targeted email and social campaigns to drive brand
+              awareness and sales on campus. These experiences, combined with my involvement in
+              Women in Marketing and PRSSA, have prepared me to contribute meaningfully to any
+              marketing team from day one. I am excited to keep building on this foundation through
+              future roles in <em>digital and performance marketing</em>. Explore my About Me and
+              Portfolio pages to learn more about my background, skills, and featured projects.
+            </p>
+          </div>
+
+          <!-- RIGHT: BOTH IMAGES STACKED -->
+          <div class="intro-image">
+
+            <!-- CHICAGO IMAGE -->
+            <img src="images/chicagolake.jpg" alt="Chicago Lakefront"
+              id="lakeImg"
+              style="width:220px; height:220px; object-fit:cover; border-radius:12px;
+                     border:3px solid #f4a7b9; box-shadow:0 4px 12px rgba(125,4,48,0.2);
+                     display:block; cursor:pointer;"
+              onclick="toggleCaption()">
+            <p id="imgCaption"
+              style="display:none; font-size:0.8em; color:#7d0430;
+                     margin-top:0.5em; font-style:italic; text-align:center;">
+              Chicago, IL
+            </p>
+
+            <!-- MIAMI IMAGE directly below -->
+            <img src="images/miamiuni.jpg" alt="Miami University"
+              id="miamiImg"
+              style="width:220px; height:220px; object-fit:cover; border-radius:12px;
+                     border:3px solid #f4a7b9; box-shadow:0 4px 12px rgba(125,4,48,0.2);
+                     display:block; cursor:pointer; margin-top:0.8em;"
+              onclick="toggleMiamiCaption()">
+            <p id="miamiCaption"
+              style="display:none; font-size:0.8em; color:#7d0430;
+                     margin-top:0.5em; font-style:italic; text-align:center;">
+              Miami University, Oxford OH
+            </p>
+
+          </div>
+          <!-- END intro-image -->
+
+        </div>
+        <!-- END intro-row -->
+
+        <!-- JAVASCRIPT -->
+        <script>
+          function toggleCaption() {
+            var caption = document.getElementById("imgCaption");
+            if (caption.style.display === "none") {
+              caption.style.display = "block";
+            } else {
+              caption.style.display = "none";
+            }
+          }
+
+          function toggleMiamiCaption() {
+            var caption = document.getElementById("miamiCaption");
+            if (caption.style.display === "none") {
+              caption.style.display = "block";
+            } else {
+              caption.style.display = "none";
+            }
+          }
+        </script>
+
+        <!-- WHAT I OFFER -->
+        <h2>What I Bring to the Table</h2>
+        <p>
+          My skill set spans the full marketing funnel, from top-of-funnel awareness through
+          paid and organic content, to mid-funnel nurture via lifecycle email and segmentation,
+          to bottom-of-funnel conversion strategy and reporting. I have hands-on experience
+          with both the creative and technical sides of marketing, allowing me to collaborate
+          effectively with designers, analysts, and strategists alike. Below are some of the
+          core competencies I bring to every project and role.
+        </p>
+
+        <div class="pill-grid">
+          <span class="pill">Paid Media Strategy</span>
+          <span class="pill">Lifecycle Email</span>
+          <span class="pill">Audience Segmentation</span>
+          <span class="pill">Salesforce MC</span>
+          <span class="pill">Google Ads</span>
+          <span class="pill">SEO / SEM</span>
+          <span class="pill">Content Creation</span>
+          <span class="pill">UX Research</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">Semrush</span>
+          <span class="pill">Social Media</span>
+          <span class="pill">Performance Max</span>
+        </div>
+
+        <!-- SNAPSHOT TABLE -->
+        <h2>Experience Snapshot</h2>
+        <p>
+          The table below highlights a selection of my key roles and what I contributed in
+          each. Visit the <strong>Portfolio page</strong> for a deeper look at individual
+          campaigns, strategies, and outcomes across these experiences.
+        </p>
+
+        <table>
+          <tr>
+            <th>Role</th>
+            <th>Organization</th>
+            <th>Key Contribution</th>
+          </tr>
+          <tr>
+            <td><strong>Performance Marketing Intern</strong></td>
+            <td>NinjaTrader</td>
+            <td>Optimized 150+ multilingual emails; presented segmentation strategy to C-suite</td>
+          </tr>
+          <tr>
+            <td><strong>Marketing Intern</strong></td>
+            <td>Speed Lemon Media</td>
+            <td>Created platform-optimized content; supported press, branding, and market research</td>
+          </tr>
+          <tr>
+            <td><strong>Campus Manager</strong></td>
+            <td>Fresh Prints</td>
+            <td>Managed 50+ org relationships; deployed segmented email and social campaigns</td>
+          </tr>
+          <tr>
+            <td><strong>Sales Representative</strong></td>
+            <td>Amy's Candy Bar</td>
+            <td>Executed 7 festival promotions; managed e-commerce, inventory, and client orders</td>
+          </tr>
+          <tr>
+            <td><strong>Member</strong></td>
+            <td>Women in Marketing</td>
+            <td>Applied PPC, ROAS, funnel strategy, and AI optimization in workshops and projects</td>
+          </tr>
+        </table>
+
+        <!-- EXPLORE THE SITE -->
+        <h2>Explore This Site</h2>
+        <p>
+          This portfolio is organized into three sections designed to give you a complete
+          picture of who I am and what I do. The <strong>Home page</strong> (you are here)
+          serves as your introduction to my background, skill set, and professional snapshot.
+          The <strong>About Me page</strong> goes deeper into my academic journey, certifications,
+          campus involvement, and the values that drive my work. The
+          <strong>Portfolio page</strong> showcases my featured projects — from omnichannel
+          campaign strategies and international GTM briefs to UX research portfolios and
+          full-funnel media plans. Each section is designed with the same principles I apply
+          to my marketing work: <em>clarity, intention, and a focus on the audience</em>. I
+          hope this site gives you a strong sense of the marketer I am today, and the one I
+          am continuing to become. Thank you for visiting, and feel free to reach out through
+          the contact information in the sidebar.
+        </p>
+
+        <!-- QUICK LINKS LIST -->
+        <h2>Quick Links</h2>
+        <ul>
+          <li><strong>About Me</strong> — My academic background, certifications, and values</li>
+          <li><strong>Portfolio</strong> — Featured campaigns, strategies, and project outcomes</li>
+          <li><strong>LinkedIn</strong> — Connect with me professionally</li>
+          <li><strong>Email</strong> — Reach out directly for opportunities or collaborations</li>
+        </ul>
+
+      </section>
+
+      <!-- ASIDE -->
+      <aside>
+        <h2>Contact</h2>
+
+        <div class="contact-item">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">(773) 610-4269</span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">
+            <a href="mailto:madelinesnowdenmarketing@gmail.com">madelinesnowdenmarketing@gmail.com</a>
+          </span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">
+            <a href="https://www.linkedin.com/in/madelinesnowden" target="_blank">linkedin.com/in/madelinesnowden</a>
+          </span>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Oxford, OH → Chicago, IL (May 2026)</span>
+        </div>
+
+        <div class="availability">
+          <strong>✦ Open to Opportunities</strong><br>
+          Graduating May 2026 — actively seeking full-time roles in performance marketing,
+          paid media, or CRM.
+        </div>
+
+        <div class="aside-skills">
+          <h3>Core Proficiencies</h3>
+          <div class="skill-row">
+            <span>Email / CRM</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:92%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span>Paid Media</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span>SEO / SEM</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:80%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span>Content Creation</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:88%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span>Analytics</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:82%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span>UX Research</span>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:75%"></div></div>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Maddie Snowden Marketing. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
